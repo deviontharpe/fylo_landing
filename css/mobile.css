@@ -1,0 +1,29 @@
+@media only screen and (max-width: 375px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  header {
+    width: 100%;
+    background: red;
+  }
+
+  header .logo img {
+    width: 25%;
+    background: pink;
+    float: left;
+  }
+
+  header .nav {
+    width: 75%;
+    float: right;
+  }
+
+  header .nav ul li {
+    display: inline-block;
+    text-decoration: none;
+  }
+  header .nav ul li a {
+    text-decoration: none;
+  }
+}
